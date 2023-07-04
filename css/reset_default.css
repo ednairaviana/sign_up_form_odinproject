@@ -1,0 +1,19 @@
+/* ----------- RESET ----------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+}
+
+:root {
+    --bcg-color: #151515;
+    --fst-color: #2B1D66;
+    --scd-color: #CB80A5;
+    --thd-color: #264B74;
+}
+
+body {
+    background-color: var(--bcg-color);
+}
