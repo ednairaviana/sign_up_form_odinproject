@@ -7,13 +7,27 @@
     font: inherit;
 }
 
+*::selection {
+    background-color: #CB80A58C;
+    color: #F5F5F5;
+}
+
 :root {
     --bcg-color: #151515;
+    --bcg-op-color: #1515158C;
+    --txt-color: #F5F5F5;
     --fst-color: #2B1D66;
     --scd-color: #CB80A5;
     --thd-color: #264B74;
 }
 
+html {
+    font-size: 20px;
+}
+
 body {
     background-color: var(--bcg-color);
+    overflow: hidden;
+    color: var(--txt-color);
+    font-family: 'Poppins', sans-serif;
 }

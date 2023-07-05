@@ -1,0 +1,8 @@
+.main-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.8rem;
+    background: -webkit-linear-gradient(#2B1D66, #CB80A5, #F5F5F5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
