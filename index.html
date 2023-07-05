@@ -50,11 +50,11 @@
 
             <!-- FORM -->
 
-            <div class="wrapper-form">
-            <form class="main-form" action="#" method="post">
-
+            <form class="main-form" method="post">
+                
                 <!-- FIELDSET 1 -->
-
+                
+                <div class="wrapper-form">
                 <fieldset class="main-fieldset" aria-label="personal informations">
                     <legend>Personal Informations</legend>
 
@@ -98,6 +98,8 @@
                             name="email"
                             minlength="10"
                             maxlength="30"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                            placeholder="email@email.com"
                             required
                         >
                         <span></span>
@@ -110,9 +112,8 @@
                             inputmode="numeric"
                             id="phone-number"
                             name="phone-number"
-                            inputmode=""
-                            minlength="8"
-                            maxlength="8"
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                            placeholder="123-456-7890"
                             required
                         >
                         <span></span>
@@ -153,9 +154,9 @@
                     </div>
                 </fieldset>
             </div>
-
                 <button type="submit">Create Account</button>
             </form>
+            
             <p>Already have an account? <span class="link">Log in</span></p>
         </section>
     </div>
