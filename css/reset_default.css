@@ -5,6 +5,7 @@
     padding: 0;
     border: 0;
     font: inherit;
+    box-sizing: border-box;
 }
 
 *::selection {
@@ -30,4 +31,10 @@ body {
     overflow: hidden;
     color: var(--txt-color);
     font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 740px) {
+    html {
+        font-size: 16px;
+    }
 }

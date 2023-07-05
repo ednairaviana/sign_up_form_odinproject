@@ -6,3 +6,26 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.subTitle {
+    margin: 0 5%;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.link {
+    color: #CB80A5;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.link:hover {
+    border-bottom: 1px solid #CB80A5;
+}
+
+.link:active {
+    color: #F5F5F5;
+    border-bottom: 1px solid #F5F5F5;
+}

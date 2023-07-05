@@ -1,0 +1,118 @@
+legend {
+    display: none;
+}
+
+.wrapper-form {
+    width: 80%;
+}
+
+.main-form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.main-fieldset {
+    width: 120%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.form-control {
+    width: 100%;
+}
+
+label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+}
+
+label::after {
+    content: "*";
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+
+input {
+    appearance: none;
+    background-color: inherit;
+    width: 70%;
+    height: 40px;
+    border: 2px solid var(--scd-color);
+    border-radius: 4px;
+    padding: 3px 5px;
+    font-size: 0.8rem;
+    font-family: inherit;
+    color: inherit;
+    transition: all 0.2s;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+input:required + span::after {
+    content: "*";
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+input:invalid + span::after {
+    content: "X";
+    color: #cc0000;
+    animation-delay: 100s;
+}
+
+input:valid + span::after {
+    content: "✓";
+    color: #228B22;
+}
+
+input:focus:invalid {
+    border: 2px solid #cc0000;
+}
+
+input:focus:valid {
+    border: 2px solid #228B22;
+}
+
+.ieie:placeholder-shown {
+    font-size: 0.6rem;
+}
+
+button {
+    background-color: inherit;
+    font-family: inherit;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #CB80A5;
+    border: 2px solid #CB80A5;
+    border-radius: 3px;
+    width: 200px;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+button:hover {
+    background-color: #CB80A5;
+    color: #151515;
+}
+
+button:active {
+    background-color: #F5F5F5;
+    border: 2px solid #F5F5F5;
+}

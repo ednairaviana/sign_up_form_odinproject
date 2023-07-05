@@ -1,10 +1,9 @@
 .main-header {
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-image: url(/assets/img/side_image.jpg);
+    background-image: url(../../assets/img/side_image.jpg);
     background-position: center;
     background-size: cover;
     height: 100%;
@@ -19,7 +18,6 @@
     gap: 10px;
     width: 100%;
     text-align: center;
-    padding: 15px 0;
+    padding: 5% 0;
     background: var(--bcg-op-color);
-    box-shadow: inset 5px 5px 8px #151515, inset -5px -5px 8px #151515;
 }
