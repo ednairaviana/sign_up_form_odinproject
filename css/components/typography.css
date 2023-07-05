@@ -9,6 +9,11 @@
 
 .subTitle {
     margin: 0 5%;
+    text-align: center;
+}
+
+.reference {
+    font-size: 0.5rem;
 }
 
 .title {
